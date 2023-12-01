@@ -61,6 +61,13 @@ const App = () => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
 
+  const handleSubmit = (
+    event: React.FormEvent
+  ) => {
+    event.preventDefault();
+    console.log("title: ", title)
+    console.log("content: ", content)
+  }
 
   return (
     <div className="app-container">
