@@ -65,8 +65,8 @@ const App = () => {
           <div className="notes-header">
              <button>x</button>
           </div>
-          <h2>Note Title</h2>
-          <p>Note Content</p>
+          <h2>{note.title}</h2>
+          <p>{note.content}</p>
         </div>
         ))}
       </div>
