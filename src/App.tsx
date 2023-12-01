@@ -9,6 +9,46 @@ const App = () => {
       title: "note title 1",
       content: "content 1"
     },
+    {
+      id: 1,
+      title: "note title 1",
+      content: "content 1"
+    },
+    {
+      id: 1,
+      title: "note title 1",
+      content: "content 1"
+    },
+    {
+      id: 1,
+      title: "note title 1",
+      content: "content 1"
+    },
+    {
+      id: 1,
+      title: "note title 1",
+      content: "content 1"
+    },
+    {
+      id: 1,
+      title: "note title 1",
+      content: "content 1"
+    },
+    {
+      id: 1,
+      title: "note title 1",
+      content: "content 1"
+    },
+    {
+      id: 1,
+      title: "note title 1",
+      content: "content 1"
+    },
+    {
+      id: 1,
+      title: "note title 1",
+      content: "content 1"
+    },
   ])
   return (
     <div className="app-container">
