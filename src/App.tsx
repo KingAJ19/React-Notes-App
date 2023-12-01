@@ -69,7 +69,10 @@ const App = () => {
         value={title}
         onChange={(event)=> setTitle(event?.target.value)}
          placeholder="title" required/> 
-        <textarea placeholder="Content" rows={10} required></textarea>
+        <textarea
+        value={content}
+        onChange={(event)=> setTitle(event?.target.value)}
+         placeholder="Content" rows={10} required></textarea>
         <button type="submit">
           Add Note
         </button>
