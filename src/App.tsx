@@ -58,7 +58,8 @@ const App = () => {
     },
   ]);
 
-  
+  const [title, setTitle] = useState("");
+  const [content, setContent] = useState("");
 
 
   return (
