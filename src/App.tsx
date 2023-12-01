@@ -65,7 +65,10 @@ const App = () => {
   return (
     <div className="app-container">
       <form className="note-form">
-        <input placeholder="title" required/> 
+        <input
+        value={title}
+        onChange={(event)=> setTitle(event?.target.value)}
+         placeholder="title" required/> 
         <textarea placeholder="Content" rows={10} required></textarea>
         <button type="submit">
           Add Note
