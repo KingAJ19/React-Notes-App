@@ -60,6 +60,7 @@ const App = () => {
         </button>
       </form>
       <div className="notes-grid">
+        {notes.map((note) => (
         <div className="note-item">
           <div className="notes-header">
              <button>x</button>
@@ -67,6 +68,7 @@ const App = () => {
           <h2>Note Title</h2>
           <p>Note Content</p>
         </div>
+        ))}
       </div>
     </div>
   )
