@@ -65,8 +65,7 @@ const App = () => {
     event: React.FormEvent
   ) => {
     event.preventDefault();
-    console.log("title: ", title)
-    console.log("content: ", content)
+    
 
     const newNote: Note = {
       id: notes.length + 1,
