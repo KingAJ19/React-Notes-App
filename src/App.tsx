@@ -3,6 +3,13 @@ import {useState} from 'react';
 import './App.css';
 
 const App = () => {
+  const [notes, setNotes] = useState([
+    {
+      id: 1,
+      title: "note title 1",
+      content: "content 1"
+    },
+  ])
   return (
     <div className="app-container">
       <form className="note-form">
