@@ -71,7 +71,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <form className="note-form">
+      <form className="note-form" onSubmit={(event) => handleSubmit(event)}>
         <input
         value={title}
         onChange={(event)=> setTitle(event?.target.value)}
