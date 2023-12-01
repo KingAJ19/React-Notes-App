@@ -10,44 +10,44 @@ const App = () => {
       content: "content 1"
     },
     {
-      id: 1,
-      title: "note title 1",
-      content: "content 1"
+      id: 2,
+      title: "note title 2",
+      content: "content 2"
     },
     {
-      id: 1,
-      title: "note title 1",
-      content: "content 1"
+      id: 3,
+      title: "note title 3",
+      content: "content 3"
     },
     {
-      id: 1,
-      title: "note title 1",
-      content: "content 1"
+      id: 4,
+      title: "note title 4",
+      content: "content 4"
     },
     {
-      id: 1,
-      title: "note title 1",
-      content: "content 1"
+      id: 5,
+      title: "note title 5",
+      content: "content 5"
     },
     {
-      id: 1,
-      title: "note title 1",
-      content: "content 1"
+      id: 6,
+      title: "note title 6",
+      content: "content 6"
     },
     {
-      id: 1,
-      title: "note title 1",
-      content: "content 1"
+      id: 7,
+      title: "note title 7",
+      content: "content 7"
     },
     {
-      id: 1,
-      title: "note title 1",
-      content: "content 1"
+      id: 8,
+      title: "note title 8",
+      content: "content 8"
     },
     {
-      id: 1,
-      title: "note title 1",
-      content: "content 1"
+      id: 9,
+      title: "note title 9",
+      content: "content 9"
     },
   ])
   return (
