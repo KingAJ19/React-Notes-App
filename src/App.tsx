@@ -11,7 +11,7 @@ const App = () => {
       </form>
       <div className="notes-grid">
         <div className="note-item">
-          <div className="notes-header">
+          <div className="notes-header"> 
              <button>x</button>
           </div>
           <h2>Note Title</h2>
