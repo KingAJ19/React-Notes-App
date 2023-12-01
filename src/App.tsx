@@ -56,7 +56,11 @@ const App = () => {
       title: "note title 9",
       content: "content 9"
     },
-  ])
+  ]);
+
+  
+
+
   return (
     <div className="app-container">
       <form className="note-form">
