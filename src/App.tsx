@@ -101,6 +101,7 @@ const App = () => {
         return;
       }
 
+
       const updatedNote: Note = {
         id: selectedNote.id,
         title: title,
@@ -118,9 +119,7 @@ const App = () => {
       setTitle("")
       setContent("")
       setSelectedNote(null);
-    
-
-  }
+    };
 
   return (
     <div className="app-container">
